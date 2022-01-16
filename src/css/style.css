@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 :root {
-  --header-height: 3.5rem;
+  --header-height: 2rem;
 
   /*Colours*/
   --hue: 152;
@@ -159,7 +159,7 @@ button {
 .nav__toggle,
 .nav__shop,
 .nav__close {
-  color: var(--title-color);
+  color: #fffffe;
 }
 
 .nav__logo {
@@ -208,7 +208,7 @@ button {
 }
 
 .nav__link{
-    color: var(--title-color);
+    color: #fffffe;
     font-weight: var(--font-medium);
     text-transform: uppercase;
     font-size: var(--h2-font-size);
@@ -236,11 +236,14 @@ button {
 /*Change BACKGROUND hEADER*/
 
 .scroll-header{
-    background-color: var(--body-color);
-    box-shadow: 0 1px 4px hsla(0, 4%, 15%, .1);
+    background-color: #abd1c6;
 }
 
 /*Hero Section*/
+
+.home{
+  background: #004643;
+}
 
 .home__container{
     position: relative;
@@ -252,7 +255,7 @@ button {
 }
 
 .home__img-bg{
-    background-color: var(--first-color);
+    background-color:#abd1c6;
     width: 258px;
     height: 430px;
     padding-bottom: 2rem;
@@ -274,21 +277,24 @@ button {
 
 .home__social-link{
     font-size: var(--smaller-font-size);
-    color: var(--text-color-light);
+    color: #abd1c6;
     transition: .5s;
 }
 
 .home__social-link:hover{
-    color: var(--title-color);
+    color: #fffffe;
 }
 
 .home__title{
-    font-size: var(--biggest-font-size);
+    color: #fffffe;
+    font-size: 1.8rem;
     font-weight: var(--font-semi-bold);
+    text-transform: uppercase;
     margin-bottom: var(--mb-1);
 }
 
 .home__description{
+    color: #abd1c6;
     margin-bottom: var(--mb-1);
 }
 
@@ -296,15 +302,15 @@ button {
     display: inline-block;
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
-    color: var(--first-color);
+    color: #fffffe;
     margin-bottom: var(--mb-2);
 }
 
 .button{
     display: inline-block;
-    background-color: var(--button-color);
-    color: #fff;
-    padding: 1rem 1.5rem;
+    background-color: #f9bc60;
+    color: #001e1d;
+    padding: 12px 14px;
     font-weight: var(--font-medium);
 }
 
@@ -317,14 +323,14 @@ button {
 .featured_card{
   position: relative;
   text-align: center;
-  background-color: var(--container-color);
+  background-color: #abd1c6;
   padding-top: 2rem;
   border: 1px solid var(--border-color);
   overflow-y: hidden;
 }
 
 .featured__tag{
-  background-color: var(--first-color);
+  background-color: #004643;
   padding: 0.5rem 1rem;
   color: white;
   text-transform: uppercase;
@@ -352,7 +358,8 @@ button {
 
 .featured__price{
   display: block;
-  color: var(--first-color);
+  font-weight: bold;
+  color: #fffffe;
 }
 
 .featured__button{
@@ -378,7 +385,7 @@ button {
 /*Newsletter*/
 
 .newsletter__bg{
-  background-color: var(--first-color);
+  background-color: #abd1c6;
   padding: 3rem 1.5rem;
   text-align: center;
   row-gap: 2.5rem;
@@ -447,7 +454,7 @@ button {
   }
 
   .nav{
-    height: calc(3.5rem + 1.5rem);
+    height: calc(2rem + 1.5rem);
     justify-content: initial;
     column-gap: 3rem;
   }
